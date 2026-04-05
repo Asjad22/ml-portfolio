@@ -1,116 +1,146 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Muhammad Asjad Naeem</title>
-  <script src="https://cdn.tailwindcss.com"></script>
-</head>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Muhammad Asjad Naeem</title>
+        <script src="https://cdn.tailwindcss.com"></script>
+    </head>
 
-<body class="bg-slate-950 text-slate-200 font-sans">
+    <body class="bg-slate-950 text-slate-200 font-sans">
+        <!-- HERO -->
+        <section
+            class="min-h-screen flex flex-col justify-center items-center text-center px-6"
+        >
+            <h1 class="text-5xl font-bold text-white mb-4">
+                Muhammad Asjad Naeem
+            </h1>
+            <p class="text-xl text-sky-400 mb-6">
+                Machine Learning Engineer | Agentic AI Developer
+            </p>
+            <p class="max-w-xl text-slate-400 mb-8">
+                Building domain-specific AI systems using LLMs, RAG pipelines,
+                and multi-agent architectures.
+            </p>
 
-  <!-- HERO -->
-  <section class="min-h-screen flex flex-col justify-center items-center text-center px-6">
-    <h1 class="text-5xl font-bold text-white mb-4">Muhammad Asjad Naeem</h1>
-    <p class="text-xl text-sky-400 mb-6">Machine Learning Engineer | Agentic AI Developer</p>
-    <p class="max-w-xl text-slate-400 mb-8">
-      Building domain-specific AI systems using LLMs, RAG pipelines, and multi-agent architectures.
-    </p>
+            <div class="flex gap-4">
+                <a
+                    href="#projects"
+                    class="bg-sky-500 hover:bg-sky-600 px-6 py-2 rounded-lg"
+                    >Projects</a
+                >
+                <a
+                    href="Muhammad_Asjad_Naeem_Machine_Learning_Engineer_Resume.pdf"
+                    target="_blank"
+                    class="border border-slate-600 px-6 py-2 rounded-lg"
+                    >Resume</a
+                >
+            </div>
+        </section>
 
-    <div class="flex gap-4">
-      <a href="#projects" class="bg-sky-500 hover:bg-sky-600 px-6 py-2 rounded-lg">Projects</a>
-      <a href="resume.pdf" target="_blank" class="border border-slate-600 px-6 py-2 rounded-lg">Resume</a>
-    </div>
-  </section>
+        <!-- ABOUT -->
+        <section class="max-w-4xl mx-auto px-6 py-16">
+            <h2 class="text-3xl font-semibold mb-6">About Me</h2>
+            <p class="text-slate-400 leading-relaxed">
+                I am a Machine Learning Engineer specializing in domain-specific
+                LLMs, Retrieval-Augmented Generation (RAG), and autonomous AI
+                systems. I focus on building scalable, intelligent solutions
+                that solve real-world problems using modern AI technologies.
+            </p>
+        </section>
 
-  <!-- ABOUT -->
-  <section class="max-w-4xl mx-auto px-6 py-16">
-    <h2 class="text-3xl font-semibold mb-6">About Me</h2>
-    <p class="text-slate-400 leading-relaxed">
-      I am a Machine Learning Engineer specializing in domain-specific LLMs, Retrieval-Augmented Generation (RAG),
-      and autonomous AI systems. I focus on building scalable, intelligent solutions that solve real-world problems
-      using modern AI technologies.
-    </p>
-  </section>
+        <!-- SKILLS -->
+        <section class="max-w-5xl mx-auto px-6 py-16">
+            <h2 class="text-3xl font-semibold mb-10">Skills</h2>
 
-  <!-- SKILLS -->
-  <section class="max-w-5xl mx-auto px-6 py-16">
-    <h2 class="text-3xl font-semibold mb-10">Skills</h2>
+            <div class="grid md:grid-cols-3 gap-8">
+                <div>
+                    <h3 class="text-sky-400 mb-3">AI & ML</h3>
+                    <p class="text-slate-400">
+                        LLMs, RAG, NLP, Deep Learning, Agentic AI
+                    </p>
+                </div>
 
-    <div class="grid md:grid-cols-3 gap-8">
+                <div>
+                    <h3 class="text-sky-400 mb-3">Programming</h3>
+                    <p class="text-slate-400">Python, Rust, SQL</p>
+                </div>
 
-      <div>
-        <h3 class="text-sky-400 mb-3">AI & ML</h3>
-        <p class="text-slate-400">LLMs, RAG, NLP, Deep Learning, Agentic AI</p>
-      </div>
+                <div>
+                    <h3 class="text-sky-400 mb-3">Tools</h3>
+                    <p class="text-slate-400">
+                        LangChain, LlamaIndex, PyTorch, TensorFlow
+                    </p>
+                </div>
+            </div>
+        </section>
 
-      <div>
-        <h3 class="text-sky-400 mb-3">Programming</h3>
-        <p class="text-slate-400">Python, Rust, SQL</p>
-      </div>
+        <!-- PROJECTS -->
+        <section id="projects" class="bg-slate-900 py-16 px-6">
+            <div class="max-w-6xl mx-auto">
+                <h2 class="text-3xl font-semibold mb-10">Projects</h2>
 
-      <div>
-        <h3 class="text-sky-400 mb-3">Tools</h3>
-        <p class="text-slate-400">LangChain, LlamaIndex, PyTorch, TensorFlow</p>
-      </div>
+                <div class="grid md:grid-cols-2 gap-8">
+                    <div class="p-6 bg-slate-800 rounded-xl">
+                        <h3 class="text-xl font-semibold mb-2">
+                            LLM Agent System
+                        </h3>
+                        <p class="text-slate-400">
+                            Built a domain-specific AI system using RAG
+                            pipelines to ensure accurate, controlled responses.
+                        </p>
+                    </div>
 
-    </div>
-  </section>
+                    <div class="p-6 bg-slate-800 rounded-xl">
+                        <h3 class="text-xl font-semibold mb-2">
+                            Multi-Agent AI System
+                        </h3>
+                        <p class="text-slate-400">
+                            Developed MCP-based architecture for agent
+                            communication and coordination.
+                        </p>
+                    </div>
 
-  <!-- PROJECTS -->
-  <section id="projects" class="bg-slate-900 py-16 px-6">
-    <div class="max-w-6xl mx-auto">
-      <h2 class="text-3xl font-semibold mb-10">Projects</h2>
+                    <div class="p-6 bg-slate-800 rounded-xl">
+                        <h3 class="text-xl font-semibold mb-2">
+                            Incremental Learning Pipeline
+                        </h3>
+                        <p class="text-slate-400">
+                            Designed dynamic LLM pipeline that updates knowledge
+                            from new documents.
+                        </p>
+                    </div>
 
-      <div class="grid md:grid-cols-2 gap-8">
+                    <div class="p-6 bg-slate-800 rounded-xl">
+                        <h3 class="text-xl font-semibold mb-2">
+                            Token Prediction Model
+                        </h3>
+                        <p class="text-slate-400">
+                            Built ML model for token price prediction using
+                            market trends and user data.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
 
-        <div class="p-6 bg-slate-800 rounded-xl">
-          <h3 class="text-xl font-semibold mb-2">LLM Agent System</h3>
-          <p class="text-slate-400">
-            Built a domain-specific AI system using RAG pipelines to ensure accurate, controlled responses.
-          </p>
-        </div>
+        <!-- EXPERIENCE -->
+        <section class="max-w-4xl mx-auto px-6 py-16">
+            <h2 class="text-3xl font-semibold mb-6">Experience</h2>
+            <p class="text-slate-300 font-medium">
+                Machine Learning Engineer — Makclave Solutions
+            </p>
+            <p class="text-slate-400 mt-2">
+                Developed LLM systems, multi-agent architectures, and scalable
+                ML pipelines for real-world applications.
+            </p>
+        </section>
 
-        <div class="p-6 bg-slate-800 rounded-xl">
-          <h3 class="text-xl font-semibold mb-2">Multi-Agent AI System</h3>
-          <p class="text-slate-400">
-            Developed MCP-based architecture for agent communication and coordination.
-          </p>
-        </div>
-
-        <div class="p-6 bg-slate-800 rounded-xl">
-          <h3 class="text-xl font-semibold mb-2">Incremental Learning Pipeline</h3>
-          <p class="text-slate-400">
-            Designed dynamic LLM pipeline that updates knowledge from new documents.
-          </p>
-        </div>
-
-        <div class="p-6 bg-slate-800 rounded-xl">
-          <h3 class="text-xl font-semibold mb-2">Token Prediction Model</h3>
-          <p class="text-slate-400">
-            Built ML model for token price prediction using market trends and user data.
-          </p>
-        </div>
-
-      </div>
-    </div>
-  </section>
-
-  <!-- EXPERIENCE -->
-  <section class="max-w-4xl mx-auto px-6 py-16">
-    <h2 class="text-3xl font-semibold mb-6">Experience</h2>
-    <p class="text-slate-300 font-medium">Machine Learning Engineer — Makclave Solutions</p>
-    <p class="text-slate-400 mt-2">
-      Developed LLM systems, multi-agent architectures, and scalable ML pipelines for real-world applications.
-    </p>
-  </section>
-
-  <!-- CONTACT -->
-  <section class="text-center py-16 px-6">
-    <h2 class="text-3xl font-semibold mb-6">Contact</h2>
-    <p class="text-slate-400">asjadnaeem2296@gmail.com</p>
-    <p class="text-slate-400 mt-2">Karachi, Pakistan</p>
-  </section>
-
-</body>
+        <!-- CONTACT -->
+        <section class="text-center py-16 px-6">
+            <h2 class="text-3xl font-semibold mb-6">Contact</h2>
+            <p class="text-slate-400">asjadnaeem2296@gmail.com</p>
+            <p class="text-slate-400 mt-2">Karachi, Pakistan</p>
+        </section>
+    </body>
 </html>
