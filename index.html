@@ -228,7 +228,8 @@
                         <img
                             src="USDT_All Time_trend.png"
                             alt="Token Prediction Model"
-                            class="w-full h-400 object-cover rounded-lg mt-4 mb-4 border border-slate-700"
+                            class="w-full rounded-lg mb-4 border border-slate-700 cursor-pointer hover:opacity-80 transition"
+                            onclick="openModal(this.src)"
                         />
                     </div>
                 </div>
@@ -256,5 +257,32 @@
                 </a-->
             </div>
         </section>
+        <script>
+            function openModal(src) {
+                const modal = document.getElementById("imageModal");
+                const modalImg = document.getElementById("modalImg");
+
+                modalImg.src = src;
+                modal.classList.remove("hidden");
+                modal.classList.add("flex");
+            }
+
+            document
+                .getElementById("imageModal")
+                .addEventListener("click", function () {
+                    this.classList.add("hidden");
+                    this.classList.remove("flex");
+                });
+        </script>
+        <!-- IMAGE MODAL (GLOBAL - only once) -->
+        <div
+            id="imageModal"
+            class="fixed inset-0 bg-black bg-opacity-80 hidden items-center justify-center z-50"
+        >
+            <img
+                id="modalImg"
+                class="max-w-[90%] max-h-[90%] rounded-lg border border-slate-600"
+            />
+        </div>
     </body>
 </html>
